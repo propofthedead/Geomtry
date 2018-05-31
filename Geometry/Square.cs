@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-	class Program
+	class Square
 	{
-		static void Main(string[] args)
-		{
 
-		}
 	}
 }
