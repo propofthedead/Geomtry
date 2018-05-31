@@ -8,6 +8,16 @@ namespace Geometry
 {
 	class Square
 	{
+		public double LengthOfSide { get; set; }
 
+		public double areaOfSquare()
+		{
+			return LengthOfSide * LengthOfSide;
+		}
+
+		public double perimeterOfSquare()
+		{
+			return LengthOfSide * 4;
+		}
 	}
 }
