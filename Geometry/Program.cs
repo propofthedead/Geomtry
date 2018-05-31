@@ -25,6 +25,9 @@ namespace Geometry
 			rec.lengthOfRec = 5;
 			rec.widthOfRec = 10;
 			rec.printRec();
+			Circle cir = new Circle();
+			cir.raidus = 5.2;
+			cir.print();
 		}
 	}
 }
