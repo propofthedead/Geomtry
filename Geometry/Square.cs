@@ -19,5 +19,9 @@ namespace Geometry
 		{
 			return LengthOfSide * 4;
 		}
+		public void printSq()
+		{
+			Console.WriteLine($"A square with the length of {LengthOfSide}, has a area of {getArea()} and a perimeter of {getPerimeter()}");
+		}
 	}
 }
