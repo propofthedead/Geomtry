@@ -21,6 +21,10 @@ namespace Geometry
 			double perim = sqr2.getPerimeter();
 			Console.WriteLine("Second sq are is {0}, the perimeter is {1}", area2, perim);
 			sqr.printSq();
+			Rectangles rec = new Rectangles();
+			rec.lengthOfRec = 5;
+			rec.widthOfRec = 10;
+			rec.printRec();
 		}
 	}
 }
