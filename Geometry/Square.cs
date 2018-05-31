@@ -10,7 +10,7 @@ namespace Geometry
 	{
 		public double LengthOfSide { get; set; }
 
-		public double ageArea()
+		public double getArea()
 		{
 			return LengthOfSide * LengthOfSide;
 		}

@@ -10,7 +10,10 @@ namespace Geometry
 	{
 		static void Main(string[] args)
 		{
-
+			Square sqr = new Square();
+			sqr.LengthOfSide = 2.5;
+			double area = sqr.getArea();
+			double perimeter = sqr.getPerimeter();
 		}
 	}
 }
