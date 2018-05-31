@@ -10,12 +10,12 @@ namespace Geometry
 	{
 		public double LengthOfSide { get; set; }
 
-		public double areaOfSquare()
+		public double ageArea()
 		{
 			return LengthOfSide * LengthOfSide;
 		}
 
-		public double perimeterOfSquare()
+		public double getPerimeter()
 		{
 			return LengthOfSide * 4;
 		}
