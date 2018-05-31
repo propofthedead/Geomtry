@@ -14,6 +14,7 @@ namespace Geometry
 			sqr.LengthOfSide = 2.5;
 			double area = sqr.getArea();
 			double perimeter = sqr.getPerimeter();
+			Console.WriteLine("Area is {0}, perimeter is {1}", area, perimeter);
 		}
 	}
 }
