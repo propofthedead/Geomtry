@@ -24,5 +24,9 @@ namespace Geometry
 		{
 			Console.WriteLine($"The circle has a radius of {raidus}. So the area is {getArea()} and the Circumference is {getCircumference()}");
 		}
+		public Circle() { }
+		public Circle(double r) {
+			raidus = r;
+		}
 	}
 }
