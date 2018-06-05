@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-	class Cylinder: Circle
+	class Quadrilateral
 	{
-		public double height { get; set; };
 	}
 }

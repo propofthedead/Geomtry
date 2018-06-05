@@ -6,23 +6,20 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-	class Rectangles
+	class Rectangles : Quadrilateral
 	{
-		public double lengthOfRec { get; set; }
-		public double widthOfRec { get; set; }
-
-		public double getArea()
-		{
-			return lengthOfRec * widthOfRec;
+		public Rectangles(int length, int width) {
+			side1 = length;
+			side2 = width;
+			side3 = length;
+			side4 = width;
 		}
+		public Rectangles() {
 
-		public double getPerimeter()
-		{
-			return (2 * lengthOfRec) + (2 * widthOfRec);
 		}
-		public void printRec()
+		public override int GetArea()
 		{
-			Console.WriteLine($"The width and length of the rectangle are {widthOfRec}, {lengthOfRec}. So the area is {getArea()} and the perimeter {getPerimeter()}");
+			return this.side1 * this.side2;
 		}
 	}
 }
