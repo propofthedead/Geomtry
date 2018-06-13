@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-	class Rectangles : Quadrilateral
+	public class Rectangles : Quadrilateral
 	{
 		public Rectangles(int length, int width) {
 			side1 = length;
@@ -20,6 +20,10 @@ namespace Geometry
 		public override int GetArea()
 		{
 			return this.side1 * this.side2;
+		}
+		public override int GetPerimeter()
+		{
+			return (side1 + side2) * 2;
 		}
 	}
 }
